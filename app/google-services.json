@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "728321127964",
+    "firebase_url": "https://flashclick-abe30.firebaseio.com",
+    "project_id": "flashclick-abe30",
+    "storage_bucket": "flashclick-abe30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728321127964:android:b31ee63fa7137ffc",
+        "android_client_info": {
+          "package_name": "com.example.y3.flashclick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728321127964-3198t8ma6k72l98uur46f7hb2ru9n58a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.y3.flashclick",
+            "certificate_hash": "1FAED5C1DEA76B857BB6CB78D244C60D6AE0A256"
+          }
+        },
+        {
+          "client_id": "728321127964-ol3anvcju0eq18mm4vmssbjalcff7cio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt1-pmEfYttuI5l0rWyoLtLWVe7dnrqeA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728321127964-ol3anvcju0eq18mm4vmssbjalcff7cio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

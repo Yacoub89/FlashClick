@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.18.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43a08f2cc1bc8e9678b5a1740f3b91b50ab50ac6">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.18.0_3e17f211985ac75536f76970c8097d642c8e12f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-lite-9.6.1_2a9ce1d9442b84480478c8eea6446eea06ce7caa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_539e46a2d4457fc7daf84d4c73ae03f7eb23c383.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_57a9054f1dcf8d7c28b54615d52145add535fc4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-common-9.6.1_1e64b44613b5adec5368716807b4055e2fdccd20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_983dc3c0b44fe088f112b801fe29b0abf87fe60c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-clearcut-9.6.1_ac7785c95d68ae40526a4cab806e5f56123d672b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_594dbf9d535131d0d275ea86d0d1fd242512cd14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_b41ba29ab038ae3931d480ba962a2fd86fe699ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_de325dfcf0d3ea839df9afa562f8cf8d8659ffe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_027e44c6ee739d0b2a99b76af9ceb5b956080874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.1_70b069bf442bcc6fed7ba3bb178393986d704027.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7b8136a1f448740ff2e2bd39f57bfcbab53d9dfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_b0fcd2e8b839220c773034606155dd8a11893a23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_a3d903dc8e19e8d05926b6b510fe6c989229373f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-9.6.1_0713dc497f28c92fda394446835a060fdf9c6b19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-module-9.6.1_fb975b79c3a99f858f8b3e78e12a1f25584a6131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-connection-9.6.1_18939a6e1b295cdd14eeff3844f54f7596bb3368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_8629cd52c9c5aa09396a453864a0bc1cbeee95e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_869d42bdf451cf1375f1df926254c2497765992c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_75ad14e85f122b0c020189c8787bb92bb5bb318c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_03c16a4cd726ca23ec85bd78893a602d1eddb71a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_0a32e8301f9b04f661784624a7045e18a192bb6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_c3137dd36eb09f99aacd5fad05ab11aa57a792f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_a0ac74cc15762ef107ff3e555ad2d4669cfd3dfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a471c4d51fd032e900fcc9959ec35b4aa90eef19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_b889a7248ee5e5d5e508fe4865138b49a1a38c9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-auth-9.6.1_6c8b5c6f1e6e72cfe9ca9d596abe0063cb8750ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e5eaf4b93800814e628878882af1150cb91cc114.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_bb43c1094911dad389336b358d017999edd7396c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_f2fb9979c4cd334d0106f0c175f36c72be5ce481.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_e93e69add14397aaaf3b9c98827507fd58477b91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_8d150e847eff592f171d6d984873233f68cfdb88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.1_bb66520264ccc3547e0bfa5b1b3efb747a2857b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.1_b8caf891f2537eb6264b002599aa859affb41573.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-database-9.6.1_110f570e727f006b301597857e62533329163add.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_c0c0db3a2b2b7063d583ebd75292ccc7e0665030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="C:\Users\abdy\Desktop\Flashclick2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gass-9.6.1_fa24e62700b032fb07e7cfd2b53eabc32b98c7a7.jar" />
+    </item>
+
+</items>

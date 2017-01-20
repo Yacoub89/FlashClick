@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Flashclick</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">281651738888313</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2731301430422942/4350946516</string>
+    <string name="interstitial_full_screen">ca-app-pub-2731301430422942/2296863313</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
