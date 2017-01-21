@@ -5,6 +5,8 @@ import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,9 +14,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.com.example.y3.model.User;
-import com.example.y3.flashclick.MainActivity;
-import com.example.y3.flashclick.R;
+import com.y3.flashclick.R;
+import com.y3.model.User;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -31,6 +32,7 @@ public class LeaderAdapter extends RecyclerView.Adapter<LeaderAdapter.MyViewHold
 
     private List<User> user;
     private Context context;
+    private View itemView;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView title, count, rank;
@@ -38,9 +40,9 @@ public class LeaderAdapter extends RecyclerView.Adapter<LeaderAdapter.MyViewHold
 
         public MyViewHolder(View view) {
             super(view);
-            //title = (TextView) view.findViewById(R.id.person_name);
-           // count = (TextView) view.findViewById(R.id.person_points);
-           // rank = (TextView) view.findViewById(R.id.person_rank);
+            title = (TextView) view.findViewById(R.id.person_name);
+            count = (TextView) view.findViewById(R.id.person_points);
+            rank = (TextView) view.findViewById(R.id.person_rank);
             thumbnail = (ImageView) view.findViewById(R.id.person_photo);
 
         }
@@ -53,18 +55,26 @@ public class LeaderAdapter extends RecyclerView.Adapter<LeaderAdapter.MyViewHold
 
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.lead_user_card, parent, false);
+         itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.lead_user_card, parent, false);
 
         return new MyViewHolder(itemView);
     }
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
+        SharedPreferences userDetail = context.getSharedPreferences("userDetail", MODE_PRIVATE);
+        String ID = userDetail.getString("ID", "");
+        CardView cardView = (CardView) itemView.findViewById(R.id.card_view);
+
         User userTemp = user.get(position);
-      //  holder.title.setText(userTemp.getFullName());
-      //  holder.rank.setText(Integer.toString(position  + 1));
-        //holder.count.setText(Integer.toString(userTemp.getPoints()));
-        GetImage(userTemp.getFbID(), holder);
+        if (ID.equals(userTemp.getID())){
+            cardView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimary));
+        }
+
+        holder.title.setText(userTemp.getFullName());
+        holder.rank.setText(Integer.toString(position  + 1));
+        holder.count.setText(Integer.toString(userTemp.getPoints()));
+        GetImage(userTemp.getPhoto(), holder);
     }
 
     @Override
@@ -72,8 +82,9 @@ public class LeaderAdapter extends RecyclerView.Adapter<LeaderAdapter.MyViewHold
         return user.size();
     }
 
-    public void GetImage(String fbId, final MyViewHolder holder){
-        String url = "https://graph.facebook.com/" + fbId + "/picture?width=200&height=150";
+    public void GetImage(String url, final MyViewHolder holder){
+
+
         new LeaderAdapter.ImageLoadTask(url, holder.thumbnail).execute();
     }
 

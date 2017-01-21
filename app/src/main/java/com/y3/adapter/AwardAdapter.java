@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.com.example.y3.model.Award;
-import com.example.y3.flashclick.R;
+import com.y3.flashclick.R;
+import com.y3.model.Award;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;

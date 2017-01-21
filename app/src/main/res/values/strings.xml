@@ -13,4 +13,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+
 </resources>

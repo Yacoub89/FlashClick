@@ -1,35 +1,39 @@
 {
   "project_info": {
-    "project_number": "728321127964",
-    "firebase_url": "https://flashclick-abe30.firebaseio.com",
-    "project_id": "flashclick-abe30",
-    "storage_bucket": "flashclick-abe30.appspot.com"
+    "project_number": "625701498858",
+    "firebase_url": "https://flashclick-147823.firebaseio.com",
+    "project_id": "flashclick-147823",
+    "storage_bucket": "flashclick-147823.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:728321127964:android:b31ee63fa7137ffc",
+        "mobilesdk_app_id": "1:625701498858:android:f048841742f50179",
         "android_client_info": {
-          "package_name": "com.example.y3.flashclick"
+          "package_name": "com.y3"
         }
       },
       "oauth_client": [
         {
-          "client_id": "728321127964-3198t8ma6k72l98uur46f7hb2ru9n58a.apps.googleusercontent.com",
+          "client_id": "625701498858-744u38p8q7s5hd1f7ea0qmq8unb2cnfi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.y3.flashclick",
+            "package_name": "com.y3",
             "certificate_hash": "1FAED5C1DEA76B857BB6CB78D244C60D6AE0A256"
           }
         },
         {
-          "client_id": "728321127964-ol3anvcju0eq18mm4vmssbjalcff7cio.apps.googleusercontent.com",
+          "client_id": "625701498858-91v5it037o05bf17ojjre4ltcbc5en6a.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "625701498858-e1ck72ikjlj5lbs4h6b33026if1lv37d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDt1-pmEfYttuI5l0rWyoLtLWVe7dnrqeA"
+          "current_key": "AIzaSyAb40Vd_mp_dveS7F-gQ2-pXh7H7rnubuo"
         }
       ],
       "services": {
@@ -40,7 +44,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "728321127964-ol3anvcju0eq18mm4vmssbjalcff7cio.apps.googleusercontent.com",
+              "client_id": "625701498858-91v5it037o05bf17ojjre4ltcbc5en6a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

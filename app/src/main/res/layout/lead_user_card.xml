@@ -1,150 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--<LinearLayout-->
-    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
-    <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:padding="16dp">-->
-
-    <!--<android.support.v7.widget.CardView-->
-        <!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
-        <!--android:layout_width="match_parent"-->
-        <!--card_view:cardCornerRadius="4dp"-->
-        <!--card_view:cardElevation ="5dp"-->
-        <!--card_view:cardBackgroundColor="@color/colorPrimary"-->
-        <!--android:id="@+id/cv"-->
-        <!--android:layout_margin="5dp"-->
-        <!--android:layout_height="130dp">-->
-
-        <!--<RelativeLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:padding="16dp">-->
-
-            <!--<ImageView-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:id="@+id/person_photo"-->
-                <!--android:layout_alignParentLeft="true"-->
-                <!--android:layout_alignParentTop="true"-->
-                <!--android:layout_marginRight="16dp"-->
-                <!--android:clickable="true"-->
-                <!--android:scaleType="fitXY" />-->
-
-            <!--<TextView-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:id="@+id/person_points"-->
-                <!--android:gravity="bottom"-->
-                <!--android:textStyle="bold"-->
-                <!--android:layout_below="@+id/person_name"-->
-                <!--android:layout_alignParentLeft="true"-->
-                <!--android:layout_alignParentStart="true" />-->
-
-            <!--<TextView-->
-                <!--android:text="1"-->
-                <!--android:layout_width="52dp"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:id="@+id/person_rank"-->
-                <!--android:paddingLeft="5dp"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textSize="30sp"-->
-                <!--android:textAlignment="textEnd"-->
-                <!--android:gravity="end"-->
-                <!--android:layout_alignParentTop="true"-->
-                <!--android:layout_centerHorizontal="true" />-->
-
-            <!--<TextView-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:id="@+id/person_name"-->
-                <!--android:text="Yacoub Abdulla"-->
-                <!--android:textSize="15sp"-->
-                <!--android:layout_centerVertical="true"-->
-                <!--android:layout_alignParentLeft="true"-->
-                <!--android:layout_alignParentStart="true" />-->
-
-        <!--</RelativeLayout>-->
-
-    <!--</android.support.v7.widget.CardView>-->
-
-
-<!--</LinearLayout>-->
-
-
-<LinearLayout
+<android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:tag="cards main container">
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="5dp">
 
-    <android.support.v7.widget.CardView
-        android:id="@+id/card_view"
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        card_view:cardBackgroundColor="#FFF"
-        card_view:cardCornerRadius="10dp"
-        card_view:cardElevation="5dp"
-        card_view:cardUseCompatPadding="false">
+        android:layout_height="@dimen/card_height"
+        android:orientation="vertical"
+        android:weightSum="4">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:layout_height="0dip"
+            android:layout_weight="3.2"
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/person_photo"
-                android:tag="image_tag"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_weight="1" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_weight="2"
-                android:orientation="vertical"
-                >
+                <ImageView
+                    android:id="@+id/person_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    />
 
-                <TextView
-                    android:id="@+id/person_name"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="10dp"
-                    android:text="Android Name"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+                    android:layout_gravity="left|bottom"
+                    android:background="@android:drawable/screen_background_dark_transparent"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/person_points"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="10dp"
-
-                    android:text="Android Version"
-                    android:textAppearance="?android:attr/textAppearanceMedium"/>
-                <TextView
-                    android:text="1"
-                    android:layout_width="52dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/person_rank"
-                    android:paddingLeft="5dp"
-                    android:textStyle="bold"
-                    android:textSize="30sp"
-                    android:textAlignment="textEnd"
-                    android:gravity="end"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
-
+                    <TextView
+                        android:id="@+id/person_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold" />
                 </LinearLayout>
-            </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
 
-        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.8"
+            android:gravity="center|end"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:padding="@dimen/icon_padding"
+            android:id="@+id/person_points"
+            android:layout_below="@+id/person_name"
+                android:layout_weight="0.96" />
+
+            <TextView
+            android:text="1"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:padding="@dimen/icon_padding"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/person_name"
+            android:layout_toRightOf="@+id/person_name"
+            android:id="@+id/person_rank"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:textAlignment="textEnd"
+            android:gravity="end"/>
+
+        </LinearLayout>
 
     </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimary">#C2F74E</color>-->
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
@@ -10,5 +11,9 @@
     <color name="list_row_hover_start_color">#ebeef0</color>
     <color name="list_row_hover_end_color">#ebeef0</color>
 
+
     <color name="viewBg">#f1f5f8</color>
+    <color name="main_title">#1CB221</color>
+    <color name="point">#C2F74E</color>
 </resources>
+
